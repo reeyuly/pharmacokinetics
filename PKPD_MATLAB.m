@@ -1,4 +1,3 @@
-
 '''
 % Absorption
 ka = 0.5; 
@@ -64,10 +63,11 @@ xlabel('Time (hours)');
 ylabel('Concentration (mg/L)');
 title('Excretion');
 grid on;
-'''
+
 disp('Time (hours)   Concentration (mg/L)');
 disp([time4', C4']);
 [~, idx_peak4] = max(C4);
 peak_conc4 = C4(idx_peak4);
 peak_time4 = time4(idx_peak4);
 disp(['Peak concentration is ', num2str(peak_conc4), ' mg/L at ', num2str(peak_time4), ' hours.']);
+'''
