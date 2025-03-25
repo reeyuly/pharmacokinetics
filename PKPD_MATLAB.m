@@ -1,6 +1,9 @@
-# Single Compartment PKPD Model in MATLAB
+% ======================================
+% Single Compartment PKPD Model in MATLAB
+% This code models absorption, distribution, metabolism and excretion.
+% ======================================
 
-```matlab
+
 % Absorption
 ka = 0.5; 
 dose = 100; 
