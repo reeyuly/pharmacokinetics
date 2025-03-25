@@ -1,4 +1,4 @@
-'''
+```
 % Absorption
 ka = 0.5; 
 dose = 100; 
@@ -70,4 +70,4 @@ disp([time4', C4']);
 peak_conc4 = C4(idx_peak4);
 peak_time4 = time4(idx_peak4);
 disp(['Peak concentration is ', num2str(peak_conc4), ' mg/L at ', num2str(peak_time4), ' hours.']);
-'''
+```
