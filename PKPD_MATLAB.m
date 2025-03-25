@@ -1,3 +1,5 @@
+
+'''
 % Absorption
 ka = 0.5; 
 dose = 100; 
@@ -62,6 +64,7 @@ xlabel('Time (hours)');
 ylabel('Concentration (mg/L)');
 title('Excretion');
 grid on;
+'''
 disp('Time (hours)   Concentration (mg/L)');
 disp([time4', C4']);
 [~, idx_peak4] = max(C4);
