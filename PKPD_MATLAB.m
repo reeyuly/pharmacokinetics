@@ -1,6 +1,6 @@
 # Single Compartment PKPD Model in MATLAB
 
-```
+```matlab
 % Absorption
 ka = 0.5; 
 dose = 100; 
