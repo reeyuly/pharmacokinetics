@@ -4,6 +4,8 @@ Original file is located at
     https://colab.research.google.com/drive/1VOiNsJhD0DlJMCFAbJvyW1lVYPJD8cx4
 
 Pharmacokinetic single compartment multi-dosage model
+
+Slider input works on Google Colab
 """
 
 # @title {run:"auto"}
